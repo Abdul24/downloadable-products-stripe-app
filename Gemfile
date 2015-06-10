@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+source 'https://code.stripe.com'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -10,6 +11,8 @@ gem 'devise'
 gem 'paperclip', '~> 4.2.1'
 gem 'rails_12factor', group: :production
 gem 'aws-sdk'
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+gem 'httparty'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
